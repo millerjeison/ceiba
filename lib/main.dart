@@ -31,7 +31,8 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => UsersProvider()),
       ],
       child: MaterialApp(
-        title: 'Material App',
+        debugShowCheckedModeBanner: false,
+        title: 'Ceiba',
         home: Sizer(builder: (context, orientation, deviceType) {
           // return HomePage();
           return Splash();
