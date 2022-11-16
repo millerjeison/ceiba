@@ -14,7 +14,6 @@ class Splash extends StatefulWidget {
 }
 
 class _SplashState extends State<Splash> {
-  DataUser dataUser = DataUser();
   @override
   void initState() {
     // TODO: implement initState
